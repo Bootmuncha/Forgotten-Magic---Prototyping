@@ -11,6 +11,15 @@ public class Manager_Dialogue : MonoBehaviour
     
     private Queue<string> sentences;
 
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
+    }
+
     void Start()
     {
         sentences = new Queue<string>();
