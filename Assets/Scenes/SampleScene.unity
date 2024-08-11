@@ -211,7 +211,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d05670ec0c799ad49979e821e31cf775, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1f06fdb53f66dee48b491a70f517bbde, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -229,6 +229,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367126558}
   m_CullTransparentMesh: 1
+--- !u!114 &404591487 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4383604711432644365, guid: b6000cc474394ac4aae371d0785078f6, type: 3}
+  m_PrefabInstance: {fileID: 666150049}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8917a2126b6506d4db4ccc8caba29a07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &436692367
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,6 +332,10 @@ PrefabInstance:
     - target: {fileID: 5133832160612171706, guid: b6000cc474394ac4aae371d0785078f6, type: 3}
       propertyPath: m_Name
       value: DialogueManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 5133832160612171706, guid: b6000cc474394ac4aae371d0785078f6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7226607821492383294, guid: b6000cc474394ac4aae371d0785078f6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -512,6 +527,63 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 988949104}
   m_CullTransparentMesh: 1
+--- !u!1001 &1075307498
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8424722345121116867, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.9661038
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424722345121116867, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.9807038
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424722345121116867, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424722345121116867, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424722345121116867, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424722345121116867, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424722345121116867, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424722345121116867, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424722345121116867, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8424722345121116867, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8966841817716444692, guid: e56436e081a73874c868ce7115809ed4, type: 3}
+      propertyPath: m_Name
+      value: Wither
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e56436e081a73874c868ce7115809ed4, type: 3}
 --- !u!1 &1124108754
 GameObject:
   m_ObjectHideFlags: 0
@@ -570,8 +642,8 @@ MonoBehaviour:
     sentences:
     - In it's golden age the academy taught many arts. Here bronze-armed adepts forged
       the tools that would triumph when the flesh failed
-    - 'You remember the annals describing how the greatest adepts could stoke the
-      forge to be warmer than the sun. '
+    - You remember the way the annals of the school spoke of the greatest forgemasters,
+      who'd stoke the magical forge to be hotter than the sun itself.
     - Unfortunately for you, the heat lingers still. Even out here you can feel your
       skin coming close to blistering.
 --- !u!114 &1124108757
@@ -1147,8 +1219,8 @@ MonoBehaviour:
     sentences:
     - You feel the warmth like the swimmer feels the ocean. This close to the crucible
       even the enchanted stone has slowly begun to melt.
-    - You reach an arm into the crucible. Thick metal runs through your fingers,
-      thick as mud. A small smooth stone is left in your palm, throbbing with heat.
+    - You reach an arm tenderly into the molten metal. It runs thickly through your
+      fingers. A small smooth stone is left in your palm, throbbing with heat.
 --- !u!114 &2090971881 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3700273030145534490, guid: cfa406f808b0fbf48a8b2f3d66fad516, type: 3}
@@ -1171,6 +1243,14 @@ PrefabInstance:
     - target: {fileID: 399001189294222929, guid: cfa406f808b0fbf48a8b2f3d66fad516, type: 3}
       propertyPath: m_Name
       value: Main Camera
+      objectReference: {fileID: 0}
+    - target: {fileID: 567786503934133449, guid: cfa406f808b0fbf48a8b2f3d66fad516, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 404591487}
+    - target: {fileID: 567786503934133449, guid: cfa406f808b0fbf48a8b2f3d66fad516, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DisplayNextSentence
       objectReference: {fileID: 0}
     - target: {fileID: 7971742946835149210, guid: cfa406f808b0fbf48a8b2f3d66fad516, type: 3}
       propertyPath: m_SizeDelta.x
@@ -1240,3 +1320,4 @@ SceneRoots:
   - {fileID: 436692370}
   - {fileID: 1597352105}
   - {fileID: 1304322612}
+  - {fileID: 1075307498}
